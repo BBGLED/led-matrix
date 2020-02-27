@@ -119,6 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582536691819" />
@@ -149,12 +150,12 @@
       <option name="presentableId" value="Default" />
       <updated>1582535906476</updated>
       <workItem from="1582535907634" duration="738000" />
-      <workItem from="1582781507808" duration="376000" />
+      <workItem from="1582781507808" duration="962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1114000" />
+    <option name="totallyTimeSpent" value="1700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
