@@ -39,5 +39,9 @@ class RunText(SampleBase):
         except KeyboardInterrupt:
             sys.exit(0)
 
-
+# Main function
+if __name__ == "__main__":
+    run_text = RunText()
+    if (not run_text.process()):
+        run_text.print_help()
 
