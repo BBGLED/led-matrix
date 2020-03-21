@@ -1057,9 +1057,11 @@ int main(int argc, char *argv[]) {
   rgb_matrix::RuntimeOptions runtime_opt;
 
   // These are the defaults when no command-line flags are given.
-  matrix_options.rows = 32;
+  matrix_options.rows = 64;
+  matrix_options.cols = 64;
   matrix_options.chain_length = 1;
   matrix_options.parallel = 1;
+  matrix_options.hardware_mapping = "adafruit-hat"
 
   // First things first: extract the command line flags that contain
   // relevant matrix options.
