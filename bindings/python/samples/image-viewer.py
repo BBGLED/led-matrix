@@ -14,12 +14,6 @@ class RunText(SampleBase):
         super(RunText, self).__init__(*args, **kwargs)
 
     def run(self):
-        # Main function
-        if __name__ == "__main__":
-            run_text = RunText()
-            if (not run_text.process()):
-                run_text.print_help()
-
         if len(sys.argv) < 2:
             sys.exit("Require an image argument")
         else:
